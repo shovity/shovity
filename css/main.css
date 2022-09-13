@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 h1 {
 	font-size: 60px;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Ms Madi", cursive;
 }
 h2 {
 	font-size: 50px;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Ms Madi", cursive;
 }
 h3 {
 	font-size: 30px;
@@ -279,7 +279,7 @@ ol {
 	line-height: 21px;
 }
 span.banner-text_names {
-	font-family: "Good Vibes Pro", cursive;
+	font-family: 'Ms Madi', cursive;
 	font-size: 40px;
 	line-height: 43px;
 	position: relative;
@@ -363,7 +363,7 @@ img {
 	margin: 0;
 	padding: 0;
 	line-height: 40px;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Ms Madi", cursive;
 }
 .navbar a {
 	padding: 5px 10px;
@@ -1133,7 +1133,7 @@ img {
 	margin-bottom: 0;
 	text-transform: lowercase;
 	color: #FFFFFF;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Ms Madi", cursive;
 	font-size: 30px;
 }
 .counter .feature-center {
@@ -1378,7 +1378,7 @@ img {
 	margin-bottom: 0;
 }
 .widget_title {
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Ms Madi", cursive;
 }
 .widget_latest-posts .post {
 	margin-bottom: 20px;
@@ -1741,7 +1741,7 @@ footer .copyright .block {
 }
 .timer .timer-item_text {
 	color: #FFFFFF;
-	font-family: "Good Vibes Pro", cursive;
+	font-family: "Ms Madi", cursive;
 	font-size: 34px;
 }
 .timer .timer-item {
