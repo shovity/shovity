@@ -16,13 +16,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face {
-	font-family: 'Good Vibes Pro';
-	src: url("../fonts/GoodVibesPro/GoodVibesPro.eot");
-	src: url("../fonts/GoodVibesPro/GoodVibesPro.eot?#iefix") format("embedded-opentype"), url("../fonts/GoodVibesPro/GoodVibesPro.woff") format("woff"), url("../fonts/GoodVibesPro/GoodVibesPro.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
 /* Typography */
 h1, h2, h3, h4, h5, h6, figure {
 	color: #000000;
@@ -1965,4 +1958,3 @@ footer .copyright .block {
 		border-right-width: 0;
 	}
 }
-/*# sourceMappingURL=main.css.map */
