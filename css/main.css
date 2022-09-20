@@ -688,17 +688,30 @@ img {
 	left: 0;
 	right: 0;
 	z-index: 99;
-	animation: pulse 1s ease infinite;
-	display: none;
+	animation: pp .6s ease alternate infinite;
+}
+@keyframes pp {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.6);
+	}
 }
 .heart i {
 	font-size: 20px;
 	padding: 20px;
 	color: #000;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 991px) {
 	.heart {
 		display: block;
+		position: static;
+		margin-bottom: 40px;
+	}
+
+	.heart i {
+		font-size: 24px;
 	}
 }
 .groom, .bride {
@@ -808,13 +821,13 @@ img {
 	position: absolute;
 	content: " ";
 	width: 1px;
-	height: 65%;
+	height: 75%;
 	background-color: #ccc;
 	left: 30px;
 }
 @media only screen and (min-width: 640px) {
 	.timeline:before {
-		left: 80px;
+		left: 52px;
 	}
 }
 .timeline > li {
@@ -1267,8 +1280,8 @@ img {
 	background-image: url(../img/header-bg.jpg);
 }
 .banner_bottom {
-	padding: 10em 0 3em;
-	background-image: url(../img/banner-bottom.jpg);
+	padding: 222px 0 0 0;
+	background-image: url(../img/footer.png);
 }
 .banner_bottom h2 {
 	margin: 0;
@@ -1700,7 +1713,7 @@ footer .copyright .block {
 }
 /* Countdown */
 .countdown.section {
-	background-image: url(../img/countdown-bg.jpg);
+	background-image: url(../img/countdown.png);
 }
 .countdown .heading {
 	margin-bottom: 8em;
@@ -1806,13 +1819,13 @@ footer .copyright .block {
 	position: absolute;
 	content: " ";
 	width: 1px;
-	height: 65%;
+	height: 75%;
 	background-color: #ccc;
 	left: 30px;
 }
 @media only screen and (min-width: 640px) {
 	.timeline:before {
-		left: 80px;
+		left: 52px;
 	}
 }
 .timeline > li {
@@ -1851,7 +1864,7 @@ footer .copyright .block {
 	width: 75%;
 	float: right;
 	border: 1px solid #ccc;
-	padding: 30px;
+	padding: 15px;
 	position: relative;
 	border-radius: 4px;
 }
@@ -1889,6 +1902,9 @@ footer .copyright .block {
 	.timeline .timeline-panel:after {
 		top: 81px;
 	}
+	.timeline > li {
+		height: 160px;
+	}
 }
 .timeline .timeline-item:nth-child(2n) .timeline-panel {
 	float: right;
@@ -1907,11 +1923,12 @@ footer .copyright .block {
 }
 .timeline .timeline-title {
 	margin-top: 0;
-	font-size: 24px;
+    font-size: 16px;
+    font-weight: bold;
 }
 .timeline .date {
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 0;
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -1935,9 +1952,9 @@ footer .copyright .block {
 }
 @media only screen and (min-width: 992px) {
 	ul.timeline:before {
-		left: 50%;
+		left: 47.7%;
 	}
-	ul.timeline > li > .timeline-panel {
+	.timeline > li > .timeline-panel {
 		width: 38%;
 		float: left;
 	}
@@ -1950,11 +1967,30 @@ footer .copyright .block {
 		left: auto;
 		border-right-width: 0;
 		border-left-width: 15px;
+		top: 24px;
 	}
 	ul.timeline > li > .timeline-panel:after {
 		right: -14px;
 		left: auto;
 		border-left-width: 14px;
 		border-right-width: 0;
+		top: 25px;
 	}
+	ul.timeline > li > .timeline-panel {
+		margin-top: 25px;
+	}
+
+	.countdown.section {
+		background-position-y: 32%;
+	}
+
+	.ring.section {
+		background-position-y: 60%;
+	}
+	
+}
+/* ring */
+.ring.section {
+	background-image: url(../img/ring.png);
+	min-height: 184px;
 }
