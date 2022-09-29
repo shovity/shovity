@@ -141,7 +141,7 @@
             var timeinterval = setInterval(updateClock, 1000);
         }
         // set your wedding date here
-        var deadline = '2022-10-10T04:00:00.000Z';
+        var deadline = '2022-10-11T04:00:00.000Z';
         if (countdown){
             initializeClock('timer', deadline);
         }
